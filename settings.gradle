@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url 'http://127.0.0.1:8081/repository/map-release/' }
+        maven { url 'http://127.0.0.1:8081/repository/map-snapshot/' }
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'http://127.0.0.1:8081/repository/map-release/' }
+        maven { url 'http://127.0.0.1:8081/repository/map-snapshot/' }
+    }
+}
+rootProject.name = "map"
+include ':app'
+include ':home'
+include ':me'
+include ':program'
+include ':course'
+include ':garden'

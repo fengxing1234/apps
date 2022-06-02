@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeMainFragment">
+
+    <fragment
+        android:id="@+id/homeMainFragment"
+        android:name="com.zhyen.home.HomeMainFragment"
+        android:label="HomeMainFragment" />
+    <fragment
+        android:id="@+id/courseMainFragment"
+        android:name="com.zhyen.skill.CourseMainFragment"
+        android:label="CourseMainFragment" />
+    <fragment
+        android:id="@+id/productMainFragment"
+        android:name="com.zhyen.product.ProductMainFragment"
+        android:label="ProductMainFragment" />
+    <fragment
+        android:id="@+id/gardenMainFragment"
+        android:name="com.map.base.garden.GardenMainFragment"
+        android:label="GardenMainFragment" />
+    <fragment
+        android:id="@+id/meMainFragment"
+        android:name="com.zhyen.me.MeMainFragment"
+        android:label="MeMainFragment" />
+</navigation>

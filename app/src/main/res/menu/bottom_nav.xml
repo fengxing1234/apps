@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeMainFragment"
+        android:contentDescription="首页"
+        android:icon="@drawable/app_icon_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/courseMainFragment"
+        android:contentDescription="课程"
+        android:icon="@drawable/app_icon_course"
+        android:title="Course" />
+    <item
+        android:id="@+id/productMainFragment"
+        android:contentDescription="方案"
+        android:icon="@drawable/app_icon_program"
+        android:title="Program" />
+
+    <item
+        android:id="@+id/gardenMainFragment"
+        android:contentDescription="果园"
+        android:icon="@drawable/app_icon_garden"
+        android:title="Garden" />
+
+    <item
+        android:id="@+id/meMainFragment"
+        android:contentDescription="果园"
+        android:icon="@drawable/app_icon_me"
+        android:title="Me" />
+
+</menu>

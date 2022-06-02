@@ -1,0 +1,42 @@
+ext {
+
+    android = [
+            compileSdk : 32,
+            minSdk     : 21,
+            targetSdk  : 32,
+            versionCode: 1,
+            versionName: "1.0.0"
+    ]
+
+    version = [
+            common   : "1.0.0.0",
+            db       : "1.0.0.0",
+            ui       : "1.0.0.0",
+            http     : "1.0.0.0",
+            tool     : "1.0.0.0",
+            webview  : "1.0.0.0",
+
+            ARouter  : "1.5.2",
+            appcompat: "1.4.1",
+            material : "1.6.0",
+
+    ]
+
+    library = [
+            appcompat  : "androidx.appcompat:appcompat:$version.appcompat",
+            material   : "com.google.android.material:material:$version.material",
+            ARouter    : "com.alibaba:arouter-compiler:$version.ARouter",
+            ARouterAnno: "com.alibaba:arouter-compiler:$version.ARouter",
+
+
+            common     : "com.zhyen.map:common:$version.common",
+
+
+            db         : "com.zhyen.map.base:db:$version.db",
+            ui         : "com.zhyen.map.base:ui:$version.ui",
+            http       : "com.zhyen.map.base:http:$version.http",
+            tool       : "com.zhyen.map.base:tool:$version.tool",
+            webview    : "com.zhyen.map.base:webview:$version.webview",
+    ]
+}
+
