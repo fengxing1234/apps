@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
 import com.zhyen.common.BaseActivity;
 
 /**
@@ -11,6 +12,7 @@ import com.zhyen.common.BaseActivity;
  * date : 2022/5/31 下午1:15
  * description :
  */
+@Route(path = "/app/LoginActivity")
 public class LoginActivity extends BaseActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

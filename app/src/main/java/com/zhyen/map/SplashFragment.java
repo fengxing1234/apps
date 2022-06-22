@@ -40,6 +40,6 @@ public class SplashFragment extends BaseFragment {
                 NavOptions options = new NavOptions.Builder().build();
                 NavHostFragment.findNavController(SplashFragment.this).navigate(R.id.action_splashFragment_to_loginFragment, bundle, options);
             }
-        }, 3000);
+        }, 1000);
     }
 }
